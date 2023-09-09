@@ -1,0 +1,133 @@
+/* You had .body, which looks for all classes named body. To select the body tag you write only body (no dot) */
+		body {
+			margin: 0;
+		}
+		.container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-image: url(https://t3.ftcdn.net/jpg/02/55/67/54/360_F_255675436_ELxBfMFikVkYpt2L0vOPIztnzUeXTjEY.jpg);
+			background-size: cover;
+		}
+		
+		.blue {
+			background: #663878;
+			margin-top: 50px;
+			margin-left: 1px;
+			margin-bottom: 50px;
+			width: 20rem;
+			height: 33rem;
+			box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+		    
+		}
+		
+		.main {
+			background-size: 100px;
+			background: black;
+			background-image: url(https://media.istockphoto.com/id/1219382595/vector/math-equations-written-on-a-blackboard.jpg?s=612x612&w=0&k=20&c=ShVWsMm2SNCNcIjuWGtpft0kYh5iokCzu0aHPC2fV4A=);
+			text-decoration: none;
+			list-style: none;
+			text-align: center;
+			font-family: ComicSans;
+			color: white;
+			font-weight: bold;
+			font-size: 2rem;
+		}
+		
+		.backdrop2 {
+			padding: 10px;
+			background-color: rgb(255 255 255 / 0.3); /* tweak the 0.3 to change the opacity to your liking */
+			/* use this instead of the above to see if you like this better. Also remember to change text color to black when using this */
+			/* background-color: rgb(0 0 0 / 0.6); */
+			backdrop-filter: blur(2px);
+		}
+		.white{
+			/* You dont need these */
+			/* height: 5px; */
+			/* margin-right: 30px; */
+			/* New additions to improve visibilty */
+			color: black;
+			font-size: 30px;
+			font-weight: 600;
+		}
+		.black {
+			background: #A19BAB;
+			border: 10px solid #A19BAB;
+			height: 11em;
+			width: 94%;
+		}
+		input{
+			background: #A19BAB;
+			border: none;
+			height: 170px;
+			width:100%;
+			box-shadow: rgba(0.5, 0.5, 0.5, 0.5) 0px 0px 15px, inset rgba(0.15, 0.15, 0.15, 0.15) 0px -10px 20px;
+		    font-size: 2.5em;
+		    text-align: right;
+			overflow-x: scroll;
+		}
+		input::placeholder{
+			color: transparent;
+		}
+		input:focus{
+			border: none;
+			outline: none;
+		}
+		.zoness {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-image: url(https://media.istockphoto.com/id/1219382595/vector/math-equations-written-on-a-blackboard.jpg?s=612x612&w=0&k=20&c=ShVWsMm2SNCNcIjuWGtpft0kYh5iokCzu0aHPC2fV4A=);
+			height: 79px;
+			font-size: 1.2em;
+			color: whitesmoke;
+			list-style: none;
+			font-family: Arial;
+		}
+		.q {
+			/* You dont need these */
+			/* height: 5px; */
+			/* margin-right: 30px; */
+			/* New additions to improve visibilty */
+			color: black;
+			font-size: 20px;
+			font-weight: 600;
+		}
+		.backdrop {
+			padding: 10px;
+			background-color: rgb(255 255 255 / 0.3); /* tweak the 0.3 to change the opacity to your liking */
+			/* use this instead of the above to see if you like this better. Also remember to change text color to black when using this */
+			/* background-color: rgb(0 0 0 / 0.6); */
+			backdrop-filter: blur(2px);
+		}
+		.buttons{
+			padding: 5px;
+			margin-top: 15px;
+			display: grid;
+			grid-gap: 20px;
+			align-items: center;
+			justify-content: center;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			border :0px solid black;
+		}
+		.B1{
+			font-size: 1.5rem;
+			text-align: center;
+			border: 2px solid #663878;
+			padding: 9px;
+			border-radius: 50px 50px;
+			color:black;
+			box-shadow: rgba(0.5, 0.5, 0.5, 0.5) 0px 0px 15px, inset rgba(0.15, 0.15, 0.15, 0.15) 0px -10px 20px;
+		    cursor: pointer;
+		    border :0px solid black;
+			background:#663878 ;
+		}
+        .B1:hover{
+        	box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+        }
+
+		.yellow{
+			color: black;
+			background: #fb7c14;
+		}
+		
