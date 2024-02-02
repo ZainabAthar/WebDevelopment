@@ -1,4 +1,5 @@
-**Basic Arithmetic Calculator**
+**BASIC ARITHMETIC CALCULATOR**
+
 Welcome to the Basic Arithmetic Calculator project! This simple calculator is built using HTML, CSS, and JavaScript to perform basic arithmetic operations.
 
 **Features**
