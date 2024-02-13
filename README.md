@@ -1,13 +1,11 @@
 **BASIC ARITHMETIC CALCULATOR**
 
 Welcome to the Basic Arithmetic Calculator project! This simple calculator is built using HTML, CSS, and JavaScript to perform basic arithmetic operations.
-
 **Features**
 Addition
 Subtraction
 Multiplication
 Division
-
 **Getting Started**
 **Prerequisites**
 Make sure you have a modern web browser installed to run the calculator.
