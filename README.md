@@ -20,7 +20,6 @@ cd arithmetic-calculator
 Open index.html in your preferred web browser.
 
 Use the calculator to perform basic arithmetic operations.
-
 **Contributing**
 **Contributions to improve or expand the calculator are welcome! If you have ideas for additional features, bug fixes, or enhancements, please follow these steps:**
 Fork the repository.
