@@ -10,8 +10,8 @@ Division
 **Prerequisites**
 Make sure you have a modern web browser installed to run the calculator.
 
-**Usage
-Clone the repository:**
+Usage
+Clone the repository:
 
 bash
 Copy code
